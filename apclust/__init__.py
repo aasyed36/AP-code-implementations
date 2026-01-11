@@ -22,6 +22,12 @@ from .hyperparam import (
     summarize_ap_runs,
 )
 from .plots import cluster_scatter_2d, plot_raw_gene_pairs
+from .mcss import run_mcss_ap
+from .synthetic import (
+    generate_gaussian_mixture,
+    generate_samples_original_1,
+    toeplitz_covariance,
+)
 
 __all__ = [
     "DataMatrix",
@@ -46,5 +52,9 @@ __all__ = [
     "summarize_ap_runs",
     "cluster_scatter_2d",
     "plot_raw_gene_pairs",
+    "run_mcss_ap",
+    "toeplitz_covariance",
+    "generate_gaussian_mixture",
+    "generate_samples_original_1",
 ]
 
